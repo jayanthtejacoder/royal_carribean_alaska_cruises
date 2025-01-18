@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="AutomationTesting.Main">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="clickSearchTextfield"/>
+          <include name="clickBookOption"/>
+          <include name="clickDestinations"/>
+          <include name="clickNoOfNights"/>
+          <include name="clickSearchButton"/>
+          <include name="clickSearchResult"/>
+          <include name="clickSortBy"/>
+          <include name="clickCruiseDates"/>
+          <include name="clickDeparturePort"/>
+          <include name="clickMonths"/>
+          <include name="clickCloseApp"/>
+        </methods>
+      </class> <!-- AutomationTesting.Main -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
