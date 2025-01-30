@@ -160,22 +160,7 @@ public class DriverSetup {
 	{
 		driver.quit();
 	}
-	public static void main(String[] args) throws IOException, InterruptedException
-	{
-		DriverSetup dr = new DriverSetup();
-		dr.getDriver("chrome");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		dr.SearchTextfield();
-		dr.SearchButton();
-		dr.SearchResult();
-		dr.BookOption();
-		dr.CruiseDates();
-		dr.Months();
-		dr.DeparturePort();
-		dr.Destinations();
-		dr.NoOfNights();
-		dr.SortBy();
-		dr.quitDriver();
+	
 		
 	}
 }
